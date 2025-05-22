@@ -7,7 +7,7 @@ import seaborn as sns
 import streamlit as st
 vehi_data = pd.read_csv(
     r'C:\Users\fabri\Documents\VSC_projects\GitHub\vehicle_project\vehicles_project\vehicles_us.csv')
-st.header('Sprint 7: Herramientas de desarrollo de software')
+st.header('Sprint 7: Herramientas de desarrollo de software - Fabricio Torres')
 hist_cb = st.checkbox('Construir histograma')
 if hist_cb:
     st.write(
